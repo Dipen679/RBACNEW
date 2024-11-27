@@ -22,9 +22,6 @@ o	Search roles by name.
 2.	Filter Functionality:
 o	Filter users by status (Active/Inactive).
 o	Filter roles by assigned permissions (Read, Write, Delete).
-3.	Custom API Simulation (Optional):
-o	Mock API calls to simulate CRUD operations for users and roles.
-o	Validate UI behavior with mock server responses.
 ________________________________________
 Tech Stack
 Frontend
