@@ -35,8 +35,7 @@ Styling
 ________________________________________
 How to Run
 1.	Clone the repository:
-git clone 
-cd rbacproject
+git clone https://github.com/Dipen679/RBACNEW.git
 2.	Install dependencies:
 npm install
 3.	Start the development server:
