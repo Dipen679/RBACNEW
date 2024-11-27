@@ -5,7 +5,7 @@ Features
 Core Features
 1.	User Management:
 o	View and manage a list of users.
-o	Add, edit, and delete users.
+o	Add and delete users.
 o	Assign roles to users.
 o	Manage user status (Active/Inactive).
 2.	Role Management:
@@ -44,7 +44,7 @@ User Management
 1.	Use the search bar to find users by name.
 2.	Filter users by their status (Active/Inactive).
 3.	Add a new user by clicking the Add User button.
-4.	Edit or delete existing users with the respective action buttons.
+4.	Delete existing users with the respective action buttons.
 Role Management
 1.	Search roles by name using the search bar.
 2.	Filter roles by assigned permissions.
