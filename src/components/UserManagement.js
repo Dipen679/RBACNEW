@@ -3,11 +3,6 @@ import { useRBAC } from "../context/RBACContext";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTrashAlt, faUserPlus, faSearch } from "@fortawesome/free-solid-svg-icons";
 
-
-
-
-
-
 const UserManagement = () => {
   const { users, roles, addUser, deleteUser } = useRBAC();
   const [newUser, setNewUser] = useState({ name: "", role: "", status: "Active" });
