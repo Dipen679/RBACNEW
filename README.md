@@ -29,7 +29,6 @@ ________________________________________
 Tech Stack
 Frontend
 •	React.js: A JavaScript library for building user interfaces.
-•	Context API: For state management.
 Styling
 •	CSS for layout and design.
 ________________________________________
