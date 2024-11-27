@@ -1,24 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { RBACProvider } from "./context/RBACContext";
+import UserManagement from "./components/UserManagement";
+import RoleManagement from "./components/RoleManagement";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <RBACProvider>
+      <div className="App">
+        <h1
+          style={{
+            fontSize: "3rem",
+            fontWeight: "900",
+            color: "#2c3e50",
+            textAlign: "center",
+            marginBottom: "30px",
+            textShadow: "2px 2px 6px rgba(0, 0, 0, 0.2)",
+            background: "linear-gradient(135deg, #3498db, #8e44ad)",
+            WebkitBackgroundClip: "text",
+            WebkitTextFillColor: "transparent",
+          }}
         >
-          Learn React
-        </a>
-      </header>
-    </div>
+          RBAC Admin Dashboard
+        </h1>
+
+        <div className="dashboard">
+          <UserManagement />
+          <RoleManagement />
+        </div>
+      </div>
+    </RBACProvider>
   );
 }
 
